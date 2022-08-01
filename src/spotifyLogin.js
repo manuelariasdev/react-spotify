@@ -28,7 +28,7 @@ export const getTokenFromURL = ()=> {
 
 const endPoint = "https://accounts.spotify.com/authorize"
 const clientId = "38f62bdc334e447782af0ecb36633b13"
-const redirectURI = "http://localhost:3000/"
+const redirectURI = "https://react-spotify-mu.vercel.app/"
 const scopes = ["user-read-currently-playing", 
 "user-read-recently-played", "user-read-playback-state", 
 "user-top-read", 
